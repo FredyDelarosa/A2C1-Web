@@ -1,0 +1,37 @@
+header {
+    background-color: #1e1e3f; /* Fondo oscuro */
+    padding: 20px;
+    border-bottom: 2px solid #d4af37; /* Línea dorada en la parte inferior */
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos uniformemente */
+    align-items: center; /* Centra verticalmente los elementos */
+    
+    h1 {
+      font-size: 2rem;
+      color: #d4af37; /* Color dorado para el título */
+      font-family: 'Cinzel', serif; /* Tipografía temática */
+      margin: 0;
+      flex: 1; /* Se ajusta para ocupar el espacio disponible */
+      text-align: center; /* Centra el texto del título */
+    }
+    
+    nav {
+      flex: 1; /* Asegura que ocupe el mismo espacio que el título */
+      display: flex;
+      justify-content: space-evenly; /* Distribuye uniformemente los enlaces */
+      
+      a {
+        color: #d4af37;
+        text-decoration: none;
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        padding: 10px;
+        transition: color 0.3s ease;
+  
+        &:hover {
+          color: #fff; /* Color blanco al pasar el cursor */
+        }
+      }
+    }
+  }
+  

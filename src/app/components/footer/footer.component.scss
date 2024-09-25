@@ -1,0 +1,20 @@
+footer {
+    background-color: #1a1a1a; // Fondo oscuro
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+  
+      &:hover {
+        color: #ffcc00; // Cambia a dorado en hover
+      }
+    }
+  }
+  
