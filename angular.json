@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "baseHref": "/A2C1-WEB",
+            "baseHref": "/A2C1-Web/",
             "outputPath": "dist/a2-c1-web",
             "index": "src/index.html",
             "browser": "src/main.ts",
